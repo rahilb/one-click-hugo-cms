@@ -72,6 +72,10 @@ sup {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.header-logo {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
 
 @media (--breakpoint-not-small) {
   .measure-ns  {

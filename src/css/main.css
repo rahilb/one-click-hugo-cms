@@ -85,3 +85,23 @@
 
 /* Uncomment out the line below to help debug layout issues */
 /*@import './imports/_debug';*/
+
+.header-icon {
+  display: inline-block;
+  /* width: 16.3px; */
+  /* height: 13.45px; */
+  overflow: hidden;
+}
+.header-icon > svg {
+  position: relative;
+  top: 0;
+}
+.inline {
+  display: inline;
+}
+/* .darkStar > svg {
+  top: 0;
+}
+.lightStar > svg {
+  top: -13.45px;
+} */
