@@ -73,10 +73,16 @@ sup {
   text-overflow: ellipsis;
 }
 .header-logo {
-  font-size: 1.2rem;
-  font-weight: 600;
+  font-size: 1.4rem;
+  font-weight: lighter;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+  letter-spacing: 0em;
+  color: white;
 }
 
+.header-links {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
 @media (--breakpoint-not-small) {
   .measure-ns  {
     max-width: 30em;
